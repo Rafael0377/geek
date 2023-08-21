@@ -1,0 +1,151 @@
+{
+  "productos": [
+    {
+      "nombre": "Producto XYZ",
+      "precio": "15",
+      "imagen": "https://ibb.co/6XZSBK1",
+      "categoria": "Star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+      "id": "1"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "12",
+      "imagen": "https://ibb.co/xCNT5bb",
+      "categoria": "Star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+      "id": "2"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "$65.00",
+      "imagen": "https://ibb.co/1GvV7rL",
+      "id": "3",
+      "categoria": "Star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "$65.00",
+      "imagen": "https://ibb.co/H4qGjnL",
+      "id": "4",
+      "categoria": "Star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "$65.00",
+      "imagen": "https://ibb.co/qj3nY0k",
+      "id": "5",
+      "categoria": "Star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "15",
+      "imagen": "https://ibb.co/d5QzzX1",
+      "categoria": "Star wars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+      "id": "6"
+    }],
+    "Consolas": [
+      {
+        "nombre": "Producto XYZ",
+        "precio": "50",
+        "imagen": "https://ibb.co/rcXhHR9",
+        "categoria": "consolas",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+        "id": "7"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "50",
+        "imagen": "https://ibb.co/3NhZRtM",
+        "categoria": "consolas",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+        "id": "8"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "50",
+        "imagen": "https://ibb.co/8dRWJVf",
+        "categoria": "consolas",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+        "id": "9"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "50",
+        "imagen": "https://ibb.co/Pjt2HD0",
+        "categoria": "consolas",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+        "id": "10"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "50",
+        "imagen": "https://ibb.co/16p7c4X",
+        "categoria": "consolas",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+        "id": "11"
+      },
+      {
+        "nombre": "Producto XYZ",
+        "precio": "50",
+        "imagen": "https://ibb.co/3sLyBsH",
+        "categoria": "consolas",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+        "id": "12"
+      }],
+      "Diversos": [
+        {
+          "nombre": "Producto XYZ",
+          "precio": "50",
+          "imagen": "https://ibb.co/7NqnCP3",
+          "categoria": "diversos",
+          "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+          "id": "13"
+        },
+        {
+          "nombre": "Producto XYZ",
+          "precio": "50",
+          "imagen": "https://ibb.co/wJ07t6y",
+          "categoria": "diversos",
+          "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+          "id": "14"
+        },
+        {
+          "nombre": "Producto XYZ",
+          "precio": "50",
+          "imagen": "https://ibb.co/3WGwXCX",
+          "categoria": "diversos",
+          "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+          "id": "15"
+        },
+        {
+          "nombre": "Producto XYZ",
+          "precio": "50",
+          "imagen": "https://ibb.co/HxLNJwX",
+          "categoria": "diversos",
+          "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+          "id": "16"
+        },
+        {
+          "nombre": "Producto XYZ",
+          "precio": "50",
+          "imagen": "https://ibb.co/mJ8GHy8",
+          "categoria": "diversos",
+          "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+          "id": "17"
+        },
+        {
+          "nombre": "Producto XYZ",
+          "precio": "50",
+          "imagen": "https://ibb.co/0rRRKkb",
+          "categoria": "diversos",
+          "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque.",
+          "id": "18"
+        }
+      ]
+}
+

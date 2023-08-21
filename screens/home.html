@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="../carpeta_imagenes/geek_vector.svg" rel="icon">
+    <link href="../carpeta_css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="../carpeta_css/header.css">
+    <link rel="stylesheet" href="../carpeta_css/login.css">
+    <link rel="stylesheet" href="../carpeta_css/contacto.css">
+    <link rel="stylesheet" href="../carpeta_css/footer.css">
+    <link rel="stylesheet" href="../carpeta_css/botones.css">
+    <link rel="stylesheet" href="../carpeta_css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="header-nav-left">
+                <a href="../index.html"><img class="logo_header logohome" src="../carpeta_imagenes/Logo.svg"
+                        alt="Logo de AluraGeek"></a>
+                <div class="header-input-container">
+                    <input type="text" placeholder="¿Qué deseas buscar?" data-buscador>
+                    <span class="search-icon"></span>
+                </div>
+            </div>
+            <span class="search-icon-mobile"></span>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <div class="formulario-login container">
+                <h3 class="formulario-login__titulo">Iniciar Sesión</h2>
+                    <form data-form-registro-login action="" class="formulario-login_form">
+                        <div class="formulario-logininput-container">
+                            <input class="input inputs" name="email" id="email" type="email"
+                                placeholder="" required data-tipo="correo" data-form-usuario>
+                            <label class="input-label-login" for="email">Ingrese su usuario</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+
+                        <div class="formulario-logininput-container">
+                            <input class="input inputs" name="password" id="password" type="password"
+                                placeholder="" required
+                                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                                title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+                                data-tipo="password" data-form-contraseña>
+                            <label class="input-label-login" for="password">Ingresa tu contraseña</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+
+                        <!-- <input class="login-btn" type="submit" value="Entrar" id="iniciar-sesion"
+                            onclick="location.href='./todos-los-productos.html'"> -->
+
+                        <input class="login-btn" type="submit" value="Entrar" id="iniciar-sesion">
+                        <div class="divregistro">
+                            <a href="./registro.html" type="button" data-enlace>¿No tienes cuenta? Registrate aquí</a>
+                        </div>
+                        
+                    </form>
+        </section>
+        <section class="contacto">
+            <div class="contacto-container-left container">
+                <div class="contacto-container-left--div">
+                    <a href="../index.html"><img class="logo logo-home" src="../carpeta_imagenes/Logo.svg"
+                            alt="Logo de AluraGeek"></a>
+                    <ul class="footer_links--home">
+                        <li><a href="./error.html">Quiénes somos</a></li>
+                        <li><a href="./error.html">Política de privacidad </a></li>
+                        <li><a href="./error.html">Programa de fidelidad</a></li>
+                        <li><a href="./error.html">Nuestras Tiendas</a></li>
+                        <li><a href="./error.html">Quiero ser Parte</a></li>
+                        <li><a href="./error.html">Anúnciate Aqui</a></li>
+                    </ul>
+                </div>
+                <div class="footer_formulario--home">
+                    <h3 class="footer_formulario__titulo">Habla con nosotros</h2>
+                        <form action="">
+                            <div class="formulario__input-container">
+                                <input name="nombre" id="nombre" class="input inputs" type="text" placeholder=""
+                                    required data-tipo="nombre" maxlength="40" title="Puedes ingresar como máximo 40 caracteres">
+                                <label class="input-label" for="nombre">Nombre</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="formulario__textarea-container">
+                                <textarea name="mensaje" id="mensaje" class="textarea inputs" rows="5" type="text"
+                                    placeholder=""  required data-tipo="mensaje" maxlength="120"
+                                    title="El mensaje puede contener como máximo 300 carácteres"></textarea>
+                                <label class="input-label" for="mensaje">Escribe tu mensaje</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <input class="boton-form" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por F. Rafael Garcia Arellano</p>
+        <P>2023</P>
+    </footer>
+    <script type="module" src="../controllers/busqueda.controller.js"></script>
+    <script type="module" src="../carpeta_js/home.js"></script>  
+    <script type="module" src="../carpeta_js/app.js"></script>
+</body>
+
+</html>

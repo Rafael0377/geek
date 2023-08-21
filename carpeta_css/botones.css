@@ -1,0 +1,452 @@
+/*Botones del header*/
+.btn-login {
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2A7AE4;
+    border-radius: 15px;
+    background-color: transparent;
+    position: relative;
+    left: 26%;
+}
+
+.logtodos {
+    left: 20%;
+}
+
+/*Boton login de administrador*/
+.btn-menu-adm {
+    margin-left: -52%;
+}
+
+/*Boton del banner */
+.banner__btn {
+    width: 129px;
+    height: 35px;
+    font-size: 1.6rem;
+    padding: .9rem 1.2rem;
+    border-radius: 5px;
+    color: var(--text-color);
+    background-color: var(--background-color3);
+    border: none;
+    margin-left: 6.4%;
+    margin-top: 1%;
+}
+
+/*Boton login*/
+.login-btn {
+    width: 94%;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: var(--text-color);
+    background-color: var(--background-color3);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+}
+
+.login-btn.btn-desactivado {
+    cursor: not-allowed;
+    background-color: #464646;
+}
+
+.boton-form.btn-desactivado {
+    cursor: not-allowed;
+    background-color: #464646;
+}
+
+/*Boton login para error*/
+.loginerror {
+    margin-left: 9%;
+}
+
+/*Boton agregar nuevo producto*/
+.add-btn {
+    width: 94%;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: var(--text-color);
+    background-color: var(--background-color3);
+    border: 1px solid #ecedee;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    margin-top: 2%;
+}
+
+/*Boton editar nuevo producto*/
+.edit-btn {
+    width: 94%;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: var(--text-color);
+    background-color: var(--background-color3);
+    border: 1px solid #ecedee;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    margin-top: 2%;
+}
+
+
+
+/*Boton agregar producto para admi*/
+.btn-add-producto {
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    font-weight: 500;
+    border: none;
+    padding: -.5rem -5rem;
+    font-size: 1.5rem;
+    width: 13%;
+    height: 35px;
+    margin-top: -4%;
+    margin-right: 5.5%;
+}
+
+/*Boton contacto*/
+.boton-form {
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    font-weight: 500;
+    border: none;
+    margin-top: .5rem;
+}
+
+/* Cursor pointer*/
+.btn-login:hover,
+.btn-menu-adm:hover,
+/* .form-btn:hover, */
+.boton-form:hover,
+.login-btn:hover,
+.add-btn:hover,
+.edit-btn:hover,
+.btn-add-producto:hover,
+.loginerror:hover {
+    cursor: pointer;
+}
+
+.boton-form,
+.btn-login:hover {
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.35);
+}
+
+.banner__btn:hover {
+    box-shadow: 1px 1px 8px 0px rgba(247, 247, 248, 0.988);
+}
+
+@media (max-width:1024px) {
+    .btn-login {
+        width: 166px;
+        height: 40px;
+        margin-left: -41%;
+    }
+
+    .logtodos {
+        width: 166px;
+        height: 40px;
+        margin-left: -40%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -60%;
+    }
+
+    .loginerror {
+        margin-left: -59%;
+    }
+
+    .banner__btn {
+        margin-left: -19%;
+        font-size: 2.5rem;
+        width: 26vh;
+        padding: 5px 15px;
+    }
+
+    .btn-add-producto {
+        width: 19%;
+        height: 6vh;
+        padding: 1.2rem 3.4rem;
+        margin-left: 80%;
+        margin-top: 5.5%;
+        position: absolute;
+        top: 5%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .btn-login {
+        width: 166px;
+        height: 40px;
+        margin-left: -35%;
+    }
+
+    .loginerror {
+        margin-left: -40%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -47.5%;
+    }
+
+    .banner__btn {
+        margin-left: -29%;
+        font-size: 2rem;
+        width: 29vh;
+        padding: 5px 15px;
+    }
+
+    /*Boton agregar nuevo producto*/
+    .add-btn,
+    .edit-btn {
+        width: 131%;
+        margin-left: 0%;
+    }
+
+    .btn-add-producto {
+        width: 23%;
+        height: 30px;
+        padding: 0.6rem 2.5rem;
+        margin-left: 75.5%;
+        margin-top: 5%;
+        position: absolute;
+        top: 9vh;
+    }
+
+    .logtodos {
+        margin-left: -39%;
+    }
+
+}
+
+@media (max-width:425px) {
+    .banner__btn {
+        font-size: 1.4rem;
+        width: 19vh;
+        height: 4.5vh;
+        margin-left: -58%;
+        padding: 4px 8px;
+        margin-top: -2%;
+    }
+
+    .btn-login {
+        margin-left: -25%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -22%;
+        width: 32vh;
+        height: 6vh;
+    }
+
+    /*Boton agregar nuevo producto*/
+    .add-btn,
+    .edit-btn {
+        width: 111%;
+        margin-left: -11%;
+    }
+
+    .btn-add-producto {
+        width: 34%;
+        /* height: 40px; */
+        padding: 0.7rem 1.3rem;
+        margin-left: 62.5%;
+        margin-top: 4.5%;
+        font-size: 14px;
+        position: absolute;
+        top: 10.5%;
+    }
+
+    .loginerror {
+        margin-left: -20%;
+    }
+
+    .logtodos {
+        margin-left: -18%;
+        font-size: 1.6rem;
+        width: 28vh;
+        height: 6vh;
+    }
+
+}
+
+@media (max-width:375px) {
+    .banner__btn {
+        font-size: 1.4rem;
+        width: 25vh;
+        height: 4.5vh;
+        margin-left: -75%;
+        padding: 1vh 4.5vh;
+    }
+
+    .btn-login {
+        width: 142px;
+        height: 31px;
+        margin-left: -25%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -21%;
+        width: 26vh;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
+
+    /*Boton agregar nuevo producto*/
+    .add-btn,
+    .edit-btn {
+        width: 105%;
+        margin-left: -7%;
+    }
+
+    .btn-add-producto {
+        width: 39%;
+        height: 30px;
+        padding: 0.7rem 1.3rem;
+        margin-left: 58%;
+        margin-top: 4.5%;
+        font-size: 14px;
+        position: absolute;
+        top: 5%;
+    }
+
+    .loginerror {
+        margin-left: -24%;
+    }
+
+    .logtodos {
+        margin-left: -18%;
+        font-size: 1.6rem;
+        width: 23vh;
+        height: 4vh;
+    }
+
+}
+
+@media (max-width:360px) {
+    .banner__btn {
+        font-size: 1.5rem;
+        width: 20vh;
+        height: 4.5vh;
+        margin-left: -81%;
+        padding: 1vh 2.5vh;
+    }
+
+    .btn-login {
+        width: 120px;
+        height: 24px;
+        margin-left: -28%;
+        margin-top: -3%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -18%;
+        width: 20vh;
+        height: 6vh;
+        font-size: 1.1rem;
+    }
+
+    /*Boton agregar nuevo producto*/
+    .add-btn,
+    .edit-btn {
+        width: 101.5%;
+        margin-left: -3.5%;
+    }
+
+    .btn-add-producto {
+        width: 35%;
+        height: 30px;
+        padding: 0.9rem 1.3rem;
+        margin-left: 59.5%;
+        margin-top: 4.5%;
+        font-size: 12px;
+        position: absolute;
+        top: 8.5%;
+    }
+
+    .loginerror {
+        margin-left: -24%;
+    }
+
+    .logtodos {
+        margin-left: -15%;
+        font-size: 1.5rem;
+        width: 14vh;
+        height: 4.5vh;
+    }
+
+    .logotodos {
+        margin-left: -25%;
+        font-size: 1.3rem;
+        width: 18vh;
+        height: 4vh;
+    }
+
+
+}
+
+@media (max-width:350px) {
+    .banner__btn {
+        font-size: 1.4rem;
+        width: 19vh;
+        height: 4.5vh;
+        margin-left: -88%;
+        padding: 4px 8px;
+        margin-top: -5%;
+    }
+
+    .btn-login {
+        width: 120px;
+        height: 24px;
+        margin-left: -28%;
+        margin-top: -3%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -21%;
+        width: 26vh;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
+
+    /*Boton agregar nuevo producto*/
+    .add-btn,
+    .edit-btn {
+        width: 105%;
+        margin-left: -7%;
+    }
+
+    .btn-add-producto {
+        width: 36%;
+        height: 30px;
+        padding: 0.7rem 1.3rem;
+        margin-left: 61%;
+        margin-top: 4.5%;
+        font-size: 12px;
+        position: absolute;
+        top: 11.5%;
+    }
+
+    .loginerror {
+        margin-left: -24%;
+    }
+
+    .logtodos {
+        margin-left: -18%;
+        font-size: 1.6rem;
+        width: 22vh;
+        height: 4vh;
+    }
+
+}

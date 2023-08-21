@@ -1,0 +1,859 @@
+.contacto {
+    background-color: var(--background-color2);
+    padding: 3rem 0;
+  }
+  
+  /* ----------------------------------------------
+  -------------- LOGOS DE CONTACTO--------------
+  ---------------------------------------------- */
+  
+  .logo-index {
+    width: 176px;
+    height: 50px;
+    margin-left: 28%;
+  }
+  
+  .logo-home{
+    width: 176px;
+    height: 50px;
+    margin-left: 8.5%;
+  }
+  
+  .logo-info {
+    width: 176px;
+    height: 50px;
+    margin-left: 15%;
+  }
+  
+  .logo-add {
+    width: 176px;
+    height: 50px;
+    margin-left: 15%;
+  }
+  
+  .logo-search {
+    width: 176px;
+    height: 50px;
+    margin-left: 4%;
+  }
+  
+  .contacto-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94%;
+  }
+  
+  .contacto-container-left--div {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+  
+  .contacto-container-left div ul li {
+    margin-bottom: 15px;
+  }
+  
+  .contacto-container-left div ul li a {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--text-color1);
+  }
+  
+  .footer_links {
+    height: 100%;
+    display: flex;
+    gap: 4%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: -14%;
+    margin-bottom: 15%;
+  }
+  
+  .footer_links--home {
+    height: 100%;
+    display: flex;
+    gap: 4%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 6%;
+    margin-bottom: 15%;
+  }
+  
+  .footer_links--search {
+    height: 100%;
+    display: flex;
+    gap: 4%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 6%;
+    margin-bottom: 15%;
+  }
+  
+  .footer_formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15%;
+  }
+  
+  .footer_formulario--home {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    position: relative;
+    left: -4%;
+  }
+  
+  .footer_formulario--add {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    left: -9%;
+  }
+  
+  .footer_formulario__titulo {
+    font-size: 1.6rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 15px;
+    margin-bottom: 2rem;
+  }
+  
+  .form__label {
+    margin-bottom: 1rem;
+  }
+  
+  .formulario__input-container {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  
+  .input {
+    background-color: #fff;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2a7ae4;
+    padding: 1.675rem 0.5rem 0.5rem;
+    height: 4.25rem;
+    width: 94%;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+  }
+  
+  .input:not(:placeholder-shown) + .input-label,
+  .input:focus + .input-label {
+    font-size: 1.3rem;
+    /* font-size: 0.875rem; */
+    top: 0.25rem;
+    transition: all 0.25s;
+  }
+  
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+  }
+  
+  .input-container--invalid .input-label {
+    color: red;
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .input-container--invalid .input-message-error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .textarea {
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #2a7ae4;
+    padding: 0.5rem;
+    border-radius: 7px;
+    font-family: "Raleway", sans-serif;
+    resize: none;
+    height: 6.5rem;
+    width: 94%;
+    margin-top: 2%;
+  }
+  
+  .formulario__textarea-container {
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .textarea::placeholder {
+    visibility: hidden;
+  }
+  
+  .textarea:focus {
+    outline: none;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+  }
+  
+  .textarea:not(:placeholder-shown) + .input-label,
+  .textarea:focus + .input-label {
+    font-size: 1.3rem;
+    top: -1rem;
+    transition: all 0.25s;
+  }
+  
+  .textarea-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .textarea-container--invalid .textarea {
+    border: 1px solid red;
+  }
+  
+  .textarea-container--invalid .input-label {
+    color: red;
+  }
+  
+  .textarea-message-error {
+    display: none;
+  }
+  
+  .textarea-container--invalid .textarea-message-error {
+    display: block;
+    color: red;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  @media (max-width: 1024px) {
+    /* logo de la secctión contacto */
+    .logo-index {
+      position: relative;
+      left: -40%;
+    }
+  
+    .logo-home {
+      position: relative;
+      left: -26%;
+      top: -15px;
+    }
+  
+    .logo-search {
+      position: relative;
+      left: -24%;
+      top: -15px;
+    }
+  
+    .logo-add {
+      position: relative;
+      left: -40%;
+    }
+  
+    .logo-info {
+      position: relative;
+      left: -20%;
+      top: -15px;
+    }
+  
+    .footer_links {
+      margin-left: -9%;
+    }
+  
+    .footer_links--home {
+      margin-right: -4%;
+    }
+  
+    .footer_links--add {
+      position: relative;
+      left: -0%;
+      margin-right: -10%;
+    }
+  
+    .footer_formulario {
+      margin-right: -4%;
+    }
+  
+    .footer_formulario--home {
+      margin-right: -4%;
+    }
+  
+    .footer_formulario--add {
+      margin-right: -5%;
+    }
+  
+    .footer_formulario__titulo {
+      margin-left: -25;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo-index {
+      width: 156px;
+      height: 40px;
+      position: relative;
+      left: -52%;
+      top: -15px;
+    }
+  
+    .logo-home{
+      width: 156px;
+      height: 40px;
+      position: relative;
+      left: -30%;
+      top: -15px;
+    }
+  
+    .logo-search {
+      width: 156px;
+      height: 40px;
+      position: relative;
+      left: -30%;
+      top: -15px;
+    }
+  
+    .logo-add {
+      width: 156px;
+      height: 40px;
+      position: relative;
+      left: -28%;
+      top: -15px;
+    }
+  
+    .logo-info {
+      width: 156px;
+      height: 40px;
+      position: relative;
+      left: -45%;
+      top: -15px;
+    }
+  
+    .contacto-container-left {
+      flex-direction: row;
+      /* gap: 15px; */
+      margin-left: 0%;
+    }
+  
+    .contacto-container-left--div {
+      position: relative;
+      left: -6%;
+      top: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer_links {
+      margin-left: -28%;
+    }
+  
+    .footer_links--home {
+      margin-left: -11%;
+    }
+  
+    .footer_links--search {
+      margin-left: -6%;
+    }
+  
+    .footer_links--add {
+      position: relative;
+      left: -3.5%;
+      top: -45px;
+    }
+  
+    .footer_formulario {
+      position: relative;
+      width: 70%;
+      margin-right: -5%;
+      margin-left: -12%;
+    }
+  
+    .footer_formulario--home {
+      position: relative;
+      width: 70%;
+      margin-right: -6.5%;
+      margin-left: -8%;
+      /* margin-right: -10%;
+          margin-left: -12%; */
+    }
+  
+    .footer_formulario--add {
+      position: relative;
+      width: 65%;
+      margin-right: -11.5%;
+    }
+  
+    .textarea {
+      height: 10.5rem;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .contacto {
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+    }
+  
+    .continfo{
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+      margin-top: 65%;
+    }
+  
+    .logo-index {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -65%;
+      top: -15px;
+    }
+  
+    .logo-home{
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -57%;
+      top: 40px;
+    }
+  
+    .logo-search{
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -48%;
+      top: 40px;
+    }
+  
+    .logo-info {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -58%;
+      top: 40px;
+    }
+  
+    .logo-add {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -60%;
+      top: -10px;
+    }
+  
+    .contacto-container-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 12%;
+      height: 260px;
+    }
+  
+    .contacto-container-left--div {
+      position: relative;
+      left: 10%;
+      top: -5px;
+    }
+  
+    .footer_links {
+      margin-left: -48%;
+    }
+  
+    .footer_links--home {
+      margin-left: -49%;
+      margin-top: 35%;
+    }
+  
+    .footer_links--search {
+      margin-left: -30%;
+      margin-top: 35%;
+    }
+  
+    .footer_links--add {
+      margin-left: -39%;
+      margin-top: 35%;
+    }
+  
+    .footer_formulario {
+      position: relative;
+      width: 100%;
+      margin-right: -18%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--home {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--add {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: 2%;
+      margin-top: -2%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .contacto {
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+    }
+  
+    /* .continfo{
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+      margin-top: 70%;
+    } */
+  
+    .logo-index {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -60%;
+      top: -15px;
+    }
+  
+    .logo-home{
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -46%;
+      top: 40px;
+    }
+    
+    .logo-search,
+    .logo-info {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -53%;
+      top: 40px;
+    }
+  
+    .logo-add {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -58%;
+      top: -5px;
+    }
+  
+    .contacto-container-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 12%;
+      height: 260px;
+    }
+  
+    .contacto-container-left--div {
+      position: relative;
+      left: 10%;
+      top: -5px;
+      width: 45%;
+    }
+  
+    .footer_links {
+      margin-left: -40%;
+    }
+  
+    .footer_links--home {
+      margin-left: -35%;
+      margin-top: 35%;
+    }
+  
+    .footer_links--search {
+      margin-left: -32%;
+      margin-top: 35%;
+    }
+  
+    .footer_links--add {
+      margin-left: -39%;
+      margin-top: 35%;
+    }
+  
+    .footer_formulario {
+      position: relative;
+      width: 100%;
+      margin-right: -18%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--home {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--add {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: 5%;
+      margin-top: -2%;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .contacto {
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+    }
+  
+    /* .continfo{
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+      margin-top: 45%;
+    } */
+  
+    .logo-index {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -65%;
+      top: -15px;
+    }
+  
+    .logo-search{
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -45%;
+      top: 40px;
+    }
+  
+    .logo-info {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -53%;
+      top: 40px;
+    }
+  
+    .logo-add {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -45%;
+      top: -5px;
+    }
+  
+    .contacto-container-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 12%;
+      height: 260px;
+    }
+  
+    .contacto-container-left--div {
+      position: relative;
+      left: 10%;
+      top: -5px;
+      width: 45%;
+    }
+  
+    .footer_links {
+      margin-left: -42%;
+    }
+  
+    .footer_links--search {
+      margin-left: -32%;
+      margin-top: 35%;
+    }
+  
+    .footer_links--add {
+      margin-left: -20%;
+      margin-top: 35%;
+    }
+  
+    .footer_formulario {
+      position: relative;
+      width: 100%;
+      margin-right: -18%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--home {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--add {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: 5%;
+      margin-top: -2%;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .contacto {
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+      align-items: center;
+      gap: 32px;
+      height: 623px;
+    }
+  
+    .logo-index {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -62%;
+      top: -15px;
+    }
+  
+    .logo-search{
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -47%;
+      top: 40px;
+    }
+  
+    .logo-info {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -53%;
+      top: 40px;
+    }
+  
+    .logo-add {
+      width: 130px;
+      height: 40px;
+      position: relative;
+      left: -58%;
+      top: -5px;
+    }
+  
+    .contacto-container-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 12%;
+      height: 260px;
+    }
+  
+    .contacto-container-left--div {
+      position: relative;
+      left: 10%;
+      top: -5px;
+      width: 45%;
+    }
+  
+    .footer_links {
+      margin-left: -40%;
+    }
+  
+    .footer_links--search {
+      margin-left: -32%;
+      margin-top: 35%;
+    }
+  
+    .footer_links--add {
+      margin-left: -39%;
+      margin-top: 35%;
+    }
+  
+    .footer_formulario {
+      position: relative;
+      width: 100%;
+      margin-right: -18%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--home {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: -12%;
+      margin-top: -2%;
+    }
+  
+    .footer_formulario--add {
+      position: relative;
+      width: 100%;
+      margin-right: -25%;
+      margin-left: 5%;
+      margin-top: -2%;
+    }
+  }

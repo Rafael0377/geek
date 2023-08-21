@@ -1,0 +1,366 @@
+.productos__head__titulo-principal {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--text-color1);
+    margin-left: 6.3%;
+    margin-top: -4%;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-left: 6.5%;
+}
+
+.img-producto {
+    width: 140.5px;
+    height: 158px;
+    gap: 16px;
+}
+
+.cart-detail {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--text-color1);
+    padding: 4px 0;
+}
+
+.cart-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding: 4px 0;
+}
+
+.shopping-cart a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--text-color2);
+}
+
+.trash-icon {
+    /* background-image: url('../carpeta_imagenes/Trash-icon.svg'); */
+    position: relative;
+    right: 50px;
+    top: -125px;
+}
+
+/* .pencil-icon-a {
+    left: -40px;
+    top: -115px;
+    cursor: pointer;
+} */
+.pencil-icon {
+    /* background-image: url("../carpeta_imagenes/pencil-icon.svg"); */
+    position: relative;
+    /* left: 6px;
+    top: -65px; */
+    left: -50px;
+    top: -125px;
+}
+
+.trash-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.pencil-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .productos__head__titulo-principal {
+        margin-left: 8.5%;
+        margin-top: 4%;
+        font-size: 2.5rem;
+    }
+
+    .cards-container {
+        margin-left: 8.5%;
+        margin-top: 3%;
+        width: 94%;
+    }
+
+    .img-producto {
+        width: 269.5px;
+        height: 258px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: 70px;
+        top: -215px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: -60px;
+        top: -215px;
+    }
+
+    /* .img-producto {
+        width: 144px;
+        height: 158px;
+        gap: 16px;
+    } */
+
+}
+
+@media (max-width:768px) {
+    .productos {
+        margin: 30px;
+        margin-left: -5%;
+    }
+
+    .cards-container {
+        margin-left: 12%;
+        width: 93%;
+    }
+
+    .img-producto {
+        width: 182px;
+        height: 188px;
+    }
+
+    .productos__head__titulo-principal,
+    .info__encabezado h2 {
+        margin-left: 11.5%;
+        margin-top: -3%;
+        font-size: 2rem;
+    }
+
+
+    .trash-icon {
+        position: relative;
+        right: 70px;
+        top: -150px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: -60px;
+        top: -150px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .info__encabezado {
+        flex-direction: column;
+    }
+
+    .search-icon-mobile {
+        display: block;
+        margin-right: 4%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 50px;
+        margin-top: -5%;
+        font-size: 1.9rem;
+    }
+
+    .info__encabezado h2 {
+        margin-left: 12%;
+        margin-bottom: 15px;
+    }
+
+    .cards-container {
+        gap: 15.5%;
+        place-content: initial;
+        margin-left: 13%;
+    }
+
+    .img-container {
+        width: 135px;
+    }
+
+    .img-producto {
+        width: 160px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .shopping-cart {
+        margin-top: -8%;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -96px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 103px;
+        top: -140px;
+    }
+}
+
+@media (max-width:375px) {
+  
+    .search-icon-mobile {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 48px;
+        margin-top: -5%;
+        font-size: 1.6rem;
+    }
+
+    .cards-container {
+        gap: 9.5%;
+        place-content: initial;
+        margin-left: 14%;
+    }
+
+    .img-producto {
+        width: 145px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -95px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 98px;
+        top: -140px;
+    }
+
+}
+
+@media (max-width:360px) {
+  
+    .search-icon-mobile {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 45px;
+        margin-top: -5%;
+        font-size: 1.5rem;
+    }
+
+    .cards-container {
+        gap: 6.5%;
+        place-content: initial;
+        margin-left: 14%;
+    }
+
+    .img-producto {
+        width: 138px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -85px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 90px;
+        top: -140px;
+    }
+
+}
+
+
+@media (max-width:360px) {
+  
+    .search-icon-mobile {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 38px;
+        margin-top: -5%;
+        font-size: 1.5rem;
+    }
+
+    .cards-container {
+        gap: 6.5%;
+        place-content: initial;
+        margin-left: 14%;
+    }
+
+    .img-producto {
+        width: 143px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -85px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 90px;
+        top: -140px;
+    }
+
+}
+
+@media (max-width:350px) {
+  
+    .search-icon-mobile {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 45px;
+        margin-top: -5%;
+        font-size: 1.5rem;
+    }
+
+    .cards-container {
+        gap: 6.5%;
+        place-content: initial;
+        margin-left: 14%;
+    }
+
+    .img-producto {
+        width: 138px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -85px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 90px;
+        top: -140px;
+    }
+
+}

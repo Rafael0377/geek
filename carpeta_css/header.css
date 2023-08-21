@@ -1,0 +1,425 @@
+.header-nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 5%; */
+  }
+  
+  .logoindex {
+    width: 176px;
+    height: 50px;
+    margin-left: -2%;
+  }
+  
+  .addlogo {
+    width: 176px;
+    height: 50px;
+    margin-left: 0%;
+  }
+  
+  .logo-ver {
+    width: 176px;
+    height: 50px;
+    margin-left: 8%;
+  }
+  
+  .logosearch {
+    width: 176px;
+    height: 50px;
+    margin-left: -5%;
+  }
+  
+  .logoadmi {
+    width: 176px;
+    height: 50px;
+    margin-left: -4%;
+  }
+  
+  .header-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: -2%;
+  }
+  
+  .header-input-container {
+    min-width: 272px;
+    max-width: 393px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-input-container input {
+    min-width: 209px;
+    max-width: 330px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .header-input-container input::placeholder {
+    color: #a2a2a2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+  
+  .search-icon {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .search-icon-mobile {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+  
+  @media (max-width: 1024px) {
+    .header-nav {
+      width: 100%;
+      padding: 16px;
+    }
+  
+    .header-nav-left {
+      margin-left: 3%;
+    }
+  
+    .logoindex {
+      margin-left: -10%;
+    }
+  
+    .headinfo {
+      margin-left: 5%;
+    }
+  
+    .logo-ver {
+      margin-left: 10%;
+    }
+  
+    .addlogo {
+      margin-left: -3%;
+    }
+  
+    .logoheader {
+      margin-left: -14%;
+    }
+  
+    .logoadm{
+      margin-left: 1%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-nav {
+      width: 100%;
+      padding: 16px;
+    }
+  
+    .header-input-container {
+      margin-left: -3%;
+    }
+  
+    .logoindex {
+      width: 156px;
+      height: 40px;
+      margin-left: -15.5%;
+    }
+  
+    .logoheader {
+      width: 156px;
+      height: 40px;
+      margin-left: -18%;
+    }
+  
+    .logo-ver {
+      width: 156px;
+      height: 40px;
+      margin-left: -9%;
+    }
+  
+    .logohome {
+      width: 156px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .logosearch {
+      width: 156px;
+      height: 40px;
+      margin-left: 0%;
+    }
+  
+    .logoadmi {
+      width: 156px;
+      height: 40px;
+      margin-left: 2%;
+    }
+  
+    .addlogo {
+      width: 156px;
+      height: 40px;
+      margin-left: -1.5%;
+    }
+  
+    .logo-error {
+      width: 156px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .logoindex {
+      width: 130px;
+      height: 40px;
+      margin-left: -2.5%;
+    }
+  
+    .addlogo {
+      width: 130px;
+      height: 40px;
+      margin-left: 10%;
+    }
+  
+    .logosearch,
+    .logotodos {
+      width: 130px;
+      height: 40px;
+      margin-left: 1%;
+    }
+  
+    .logoadmi {
+      width: 130px;
+      height: 40px;
+      margin-left: -2%;
+    }
+  
+    .logohome {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .logo-ver {
+      width: 130px;
+      height: 40px;
+      margin-left: -8%;
+    }
+  
+    .logo-error {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .header-nav {
+      width: 100%;
+      padding: 16px;
+    }
+  
+    .header-input-container {
+      display: none;
+    }
+  
+    .search-icon-mobile {
+      display: block;
+      margin-right: 3%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .logoindex {
+      width: 130px;
+      height: 40px;
+      margin-left: -5.5%;
+    }
+  
+    .addlogo {
+      width: 130px;
+      height: 40px;
+      margin-left: 10%;
+    }
+  
+    .logosearch,
+    .logotodos {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+    
+    .logoadmi{
+      width: 130px;
+      height: 40px;
+      margin-left: 0%;
+    }
+  
+    .logohome {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .logo-ver {
+      width: 130px;
+      height: 40px;
+      margin-left: -8%;
+    }
+  
+    .logo-error {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .header-nav {
+      width: 100%;
+      padding: 16px;
+    }
+  
+    .header-input-container {
+      display: none;
+    }
+  
+    .search-icon-mobile {
+      display: block;
+      margin-right: 3%;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .logoindex {
+      width: 120px;
+      height: 40px;
+      margin-left: -3%;
+    }
+  
+    .addlogo {
+      width: 120px;
+      height: 40px;
+      margin-left: 10%;
+    }
+  
+    .logosearch,
+    .logotodos {
+      width: 120px;
+      height: 40px;
+      margin-left: 2%;
+    }
+    
+    .logoadmi{
+      width: 130px;
+      height: 40px;
+      margin-left: 0%;
+    }
+  
+    .logohome {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .logo-ver {
+      width: 130px;
+      height: 40px;
+      margin-left: -8%;
+    }
+  
+    .logo-error {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .header-nav {
+      width: 100%;
+      padding: 16px;
+    }
+  
+    .header-input-container {
+      display: none;
+    }
+  
+    .search-icon-mobile {
+      display: block;
+      margin-right: 5%;
+      margin-top: -1.5%;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .logoindex {
+      width: 120px;
+      height: 40px;
+      margin-left: -7%;
+    }
+  
+    .addlogo {
+      width: 120px;
+      height: 40px;
+      margin-left: 10%;
+    }
+  
+    .logosearch,
+    .logotodos {
+      width: 120px;
+      height: 40px;
+      margin-left: 2%;
+    }
+    
+    .logoadmi{
+      width: 130px;
+      height: 40px;
+      margin-left: -3%;
+    }
+  
+    .logohome {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .logo-ver {
+      width: 130px;
+      height: 40px;
+      margin-left: -8%;
+    }
+  
+    .logo-error {
+      width: 130px;
+      height: 40px;
+      margin-left: -1%;
+    }
+  
+    .header-nav {
+      width: 100%;
+      padding: 16px;
+    }
+  
+    .header-input-container {
+      display: none;
+    }
+  
+    .search-icon-mobile {
+      display: block;
+      margin-right: 3%;
+      margin-top: -1.5%;
+    }
+  }
